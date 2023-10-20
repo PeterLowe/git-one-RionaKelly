@@ -1,0 +1,14 @@
+Init
+“git init” creates a new repository in the folder that Git Bash is launched in.
+ 
+
+A hidden .git folder is created that contains this repository.
+ 
+ 
+Add
+“git add” adds files to the directory, I will use “git add .” to add all the new files, we can see that all the files are added using the “git status” command that I will go over next.
+ 
+
+Status
+“git status” will list all the files in the directory, modified files will be red and added files will be green.
+
