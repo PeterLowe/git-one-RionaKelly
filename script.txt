@@ -47,8 +47,7 @@ git log –(n) will only display the last (n) commits
 Stash
 git stash makes a local copy of the current working directory 
 git stash list lists all the previously pushed stashes
-git pop retrieves stash {0} (the last stash of the edited files) and copies the files into a working directory, numbers other than {0} can be retrieved with git apply stash {(n)}
- 
+  
 Remove/Rm
 git rm deletes files
 Here I delete my old pdf file so that it doesn't cause any problems since I’ll have to make a new one later
