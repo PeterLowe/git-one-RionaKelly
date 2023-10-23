@@ -38,14 +38,12 @@ git branch --list will list all the branches in the repository
 Log
 git log displays the entire commit history, you can press <space> for more or <q> to quit
  
-
-
-Log cont.
-git log --stat shows the files altered and the lines that have been changed
 git log --graph will drawn the branch paths
+ 
+Log cont.
+git log --stat shows the files altered and the lines that have been changed 
 git log –(n) will only display the last (n) commits
-I will put all the screenshots here and smaller because they take up a lot of space but I want to get all the information in
-    
+  
 Stash
 git stash makes a local copy of the current working directory 
 git stash list lists all the previously pushed stashes
