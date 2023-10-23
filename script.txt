@@ -28,27 +28,19 @@ git remote -v lists the remote repositories
  
 Push
 git push updates the remote node with the current node
-this command didn’t work for me for issues that I am not sure of unfortunately
- 
-
+  
 Branch
 git branch creates a new branch in the local repository, the term after branch will be the branch name
  
 git branch --list will list all the branches in the repository
- 
-
-Merge
-git merge master/main merges the head with the master, git will automatically apply the changes if separate and warn if there is a conflict before merging
-the main should be merged into your branch, only merge your branch into the main when everyone is ready and aware
  
-
+ 
 Log
 git log displays the entire commit history, you can press <space> for more or <q> to quit
 git log --stat shows the files altered and the lines that have been changed
 git log --graph will drawn the branch paths
 git log –(n) will only display the last (n) commits
  
-
 Stash
 git stash makes a local copy of the current working directory 
 git stash list lists all the previously pushed stashes
